@@ -1,0 +1,43 @@
+/* General Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Styling for navigation bar */
+nav {
+  background-color: #333; /* Dark background for the navbar */
+  padding: 10px 0;
+}
+
+nav ol {
+  list-style: none; /* Remove bullet points */
+  display: flex; /* Align items in a row */
+  justify-content: center; /* Center items horizontally */
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  margin: 0 15px; /* Space between menu items */
+}
+
+nav a {
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* White text */
+  font-size: 18px; /* Font size for better visibility */
+  padding: 8px 16px; /* Padding around links */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+nav a:hover {
+  background-color: #575757; /* Change background on hover */
+}
+
+/* Style for components */
+.component {
+  padding: 20px;
+  text-align: center;
+}
